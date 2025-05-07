@@ -8,7 +8,7 @@ def isPrime(n):
             return False
     return True
 
-for i in range(1, 5000):
+for i in range(1, 4000):
     if isPrime(i):
         print(i, end=", ")
 print("\n") 
